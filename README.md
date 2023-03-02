@@ -4,6 +4,7 @@ build opencv455 on rk3588 libs and shell ;
 
 echo ""
 echo "================================"
+
 echo "cmake CMAKE_BUILD_TYPE=RELEASE "
 
 #file use 
