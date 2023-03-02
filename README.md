@@ -1,5 +1,7 @@
 # opencv455-rk3588-arm64
-build opencv455 on rk3588 libs and shell ;
+build opencv455 on rk3588 libs and shell ; 
+no cuda ;no snmp
+
 
 
 echo ""
@@ -14,7 +16,9 @@ echo "cmake CMAKE_BUILD_TYPE=RELEASE "
 ===================================
 
 cd opencv-4.5.5
+
 mkdir do
+
 cd do
 
 ===================================
